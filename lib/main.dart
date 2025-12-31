@@ -16,7 +16,7 @@ import 'themes/app_theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  setUrlStrategy(PathUrlStrategy());
+  usePathUrlStrategy();
 
   await LocalStorage.init();
   AppStyle.init();

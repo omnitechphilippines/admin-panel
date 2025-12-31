@@ -14,7 +14,7 @@ import '../../helper/widgets/my_text_style.dart';
 import '../../images.dart';
 import '../../themes/app_theme.dart';
 import '../../widgets/custom_pop_menu.dart';
-import 'package:universal_html/html.dart';
+// import 'package:universal_html/html.dart';
 
 class TopBar extends StatefulWidget {
   const TopBar({super.key});
@@ -28,14 +28,14 @@ class _TopBarState extends State<TopBar> with SingleTickerProviderStateMixin, UI
   Function? hideFn;
 
   void goFullScreen() {
-    if (isFullScreen) {
-      document.exitFullscreen();
-    } else {
-      document.documentElement!.requestFullscreen();
-    }
-    setState(() {
-      isFullScreen = !isFullScreen;
-    });
+    // if (isFullScreen) {
+    //   document.exitFullscreen();
+    // } else {
+    //   document.documentElement!.requestFullscreen();
+    // }
+    // setState(() {
+    //   isFullScreen = !isFullScreen;
+    // });
   }
 
   final List<Map<String, String>> notifications = <Map<String, String>>[

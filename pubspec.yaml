@@ -63,8 +63,6 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^6.0.0
 
-  flutter_native_splash: ^2.4.7
-
 # Flutter-specific configuration
 flutter:
   uses-material-design: true
@@ -77,14 +75,3 @@ flutter:
     - assets/other/
     - assets/data/
     - assets/svg/
-
-flutter_native_splash:
-  color: "#FFFFFF"
-  image: assets/splash.png
-
-  color_dark: "#000000"
-  image_dark: assets/splash.png
-
-  android: true
-  ios: true
-  web: true
