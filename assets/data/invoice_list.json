@@ -1,0 +1,92 @@
+[
+  {
+    "invoice_id": "#RB6985",
+    "client_name": "Sean Kemper",
+    "invoice_date": "23 April, 2024 05:09 PM",
+    "due_date": "30 April, 2024",
+    "amount": "$852.25",
+    "status": "Unpaid",
+    "payment_method": "PayPal"
+  },
+  {
+    "invoice_id": "#RB1002",
+    "client_name": "Victoria Sullivan",
+    "invoice_date": "14 May, 2024 10:51 AM",
+    "due_date": "25 Aug, 2024",
+    "amount": "$953.00",
+    "status": "Send",
+    "payment_method": "PayPal"
+  },
+  {
+    "invoice_id": "#RB3652",
+    "client_name": "Liam Martinez",
+    "invoice_date": "12 April, 2024 12:09 PM",
+    "due_date": "28 April, 2024",
+    "amount": "$99.00",
+    "status": "Unpaid",
+    "payment_method": "Swift Transfer"
+  },
+  {
+    "invoice_id": "#RB7854",
+    "client_name": "Emma Johnson",
+    "invoice_date": "10 April, 2024 10:09 PM",
+    "due_date": "15 April, 2024",
+    "amount": "$1250.00",
+    "status": "Paid",
+    "payment_method": "PayPal"
+  },
+  {
+    "invoice_id": "#RB9521",
+    "client_name": "Olivia Thompson",
+    "invoice_date": "22 May, 2024 03:41 PM",
+    "due_date": "05 July, 2024",
+    "amount": "$500.00",
+    "status": "Send",
+    "payment_method": "Payoneer"
+  },
+  {
+    "invoice_id": "#RB9634",
+    "client_name": "Noah Garcia",
+    "invoice_date": "18 May, 2024 09:09 AM",
+    "due_date": "30 May, 2024",
+    "amount": "$250.00",
+    "status": "Paid",
+    "payment_method": "Bank"
+  },
+  {
+    "invoice_id": "#RB8520",
+    "client_name": "Sophia Davis",
+    "invoice_date": "05 April, 2024 08:50 AM",
+    "due_date": "22 April, 2024",
+    "amount": "$29.00",
+    "status": "Paid",
+    "payment_method": "PayPal"
+  },
+  {
+    "invoice_id": "#RB3590",
+    "client_name": "Isabella Lopez",
+    "invoice_date": "15 Jun, 2024 11:09 PM",
+    "due_date": "01 Aug, 2024",
+    "amount": "$24.99",
+    "status": "Send",
+    "payment_method": "Swift"
+  },
+  {
+    "invoice_id": "#RB5872",
+    "client_name": "Ava Wilson",
+    "invoice_date": "22 April, 2024 05:09 PM",
+    "due_date": "30 April, 2024",
+    "amount": "$1000.00",
+    "status": "Unpaid",
+    "payment_method": "Payoneer"
+  },
+  {
+    "invoice_id": "#RB1158",
+    "client_name": "Oliver Lee",
+    "invoice_date": "23 April, 2024 12:09 PM",
+    "due_date": "30 April, 2024",
+    "amount": "$1999.00",
+    "status": "Unpaid",
+    "payment_method": "Wise"
+  }
+]

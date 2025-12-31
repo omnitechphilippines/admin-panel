@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "task": "Review system logs for any reported errors",
+    "created_at": "2024-01-06T13:21:37Z",
+    "due_date": "2024-02-11T20:03:48Z",
+    "name": "Sean Kemper",
+    "avatar": "assets/users/avatar-2.jpg",
+    "status": "In-progress",
+    "priority": "High"
+  },
+  {
+    "id": 2,
+    "task": "Conduct user testing to identify potential bugs",
+    "created_at": "2024-02-07T21:47:07Z",
+    "due_date": "2024-02-20T03:29:08Z",
+    "name": "Victoria Sullivan",
+    "avatar": "assets/users/avatar-3.jpg",
+    "status": "Pending",
+    "priority": "Low"
+  },
+  {
+    "id": 3,
+    "task": "Gather feedback from stakeholders regarding any issues",
+    "created_at": "2023-12-13T06:17:51Z",
+    "due_date": "2024-06-12T07:57:43Z",
+    "name": "Liam Martinez",
+    "avatar": "assets/users/avatar-4.jpg",
+    "status": "In-progress",
+    "priority": "High"
+  },
+  {
+    "id": 4,
+    "task": "Prioritize bugs based on severity and impact",
+    "created_at": "2024-09-06T23:20:13Z",
+    "due_date": "2024-07-25T21:15:11Z",
+    "name": "Emma Johnson",
+    "avatar": "assets/users/avatar-5.jpg",
+    "status": "Completed",
+    "priority": "Medium"
+  },
+  {
+    "id": 5,
+    "task": "Investigate and analyze the root cause of each bug",
+    "created_at": "2025-01-16T07:09:11Z",
+    "due_date": "2024-03-28T17:33:38Z",
+    "name": "Olivia Thompson",
+    "avatar": "assets/users/avatar-1.jpg",
+    "status": "Pending",
+    "priority": "Low"
+  },
+  {
+    "id": 6,
+    "task": "Develop and implement fixes for the identified bugs",
+    "created_at": "2024-03-26T04:19:47Z",
+    "due_date": "2024-02-05T22:53:16Z",
+    "name": "Noah Garcia",
+    "avatar": "assets/users/avatar-6.jpg",
+    "status": "Completed",
+    "priority": "Low"
+  },
+  {
+    "id": 7,
+    "task": "Complete any recurring tasks",
+    "created_at": "2024-06-14T08:43:48Z",
+    "due_date": "2024-12-03T10:02:39Z",
+    "name": "Sophia Davis",
+    "avatar": "assets/users/avatar-7.jpg",
+    "status": "New",
+    "priority": "High"
+  },
+  {
+    "id": 8,
+    "task": "Check emails and respond",
+    "created_at": "2023-12-02T18:54:51Z",
+    "due_date": "2024-03-28T11:24:07Z",
+    "name": "Isabella Lopez",
+    "avatar": "assets/users/avatar-8.jpg",
+    "status": "Pending",
+    "priority": "Low"
+  },
+  {
+    "id": 9,
+    "task": "Review schedule for the day",
+    "created_at": "2024-10-02T03:26:55Z",
+    "due_date": "2025-01-14T12:11:19Z",
+    "name": "Ava Wilson",
+    "avatar": "assets/users/avatar-9.jpg",
+    "status": "In-progress",
+    "priority": "Medium"
+  },
+  {
+    "id": 10,
+    "task": "Daily stand-up meeting",
+    "created_at": "2025-01-22T06:22:36Z",
+    "due_date": "2024-07-02T00:17:24Z",
+    "name": "Oliver Lee",
+    "avatar": "assets/users/avatar-10.jpg",
+    "status": "In-progress",
+    "priority": "High"
+  }
+]

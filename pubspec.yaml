@@ -1,0 +1,90 @@
+name: admin_panel
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.1+1
+
+environment:
+  sdk: ^3.10.1
+  flutter: 3.38.3
+
+# Dependencies section
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_web_plugins:
+    sdk: flutter
+
+  # Flutter localization support
+  flutter_localizations:
+    sdk: flutter
+
+  # UI and Icons
+  cupertino_icons: ^1.0.8
+  flutter_lucide: ^1.7.0
+  flutter_svg: ^2.2.3
+  flutter_boxicons: ^3.2.0
+  flutter_tabler_icons: ^1.43.0
+
+  # Local storage & state management
+  shared_preferences: ^2.5.2
+  provider: ^6.1.5+1
+  get: ^4.7.3
+
+  # Google & Maps
+  google_maps_flutter: ^2.14.0
+
+  # URL handling
+  url_launcher: ^6.3.2  # Launch URLs in the browser
+
+  # Localization & internationalization
+  intl: ^0.20.2
+
+  # Syncfusion Charts and Maps
+  syncfusion_flutter_charts: ^32.1.19
+  syncfusion_flutter_maps: ^32.1.19
+  syncfusion_flutter_calendar: ^32.1.19
+  flutter_calendar_carousel: ^2.5.4
+
+  # Miscellaneous
+  iconify_flutter: ^0.0.7
+  universal_html: ^2.3.0
+  google_fonts: ^6.3.3
+  shimmer: ^3.0.0
+  file_picker: ^10.3.7
+  flutter_quill: ^11.5.0
+  timeline_tile: ^2.0.0
+  timelines_plus: ^1.0.8
+
+# Development dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  flutter_native_splash: ^2.4.7
+
+# Flutter-specific configuration
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/app-calendar/
+    - assets/brands/
+    - assets/small/
+    - assets/users/
+    - assets/other/
+    - assets/data/
+    - assets/svg/
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/splash.png
+
+  color_dark: "#000000"
+  image_dark: assets/splash.png
+
+  android: true
+  ios: true
+  web: true

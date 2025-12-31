@@ -1,0 +1,92 @@
+[
+  {
+    "imageUrl": "assets/app-calendar/google-mail.png",
+    "title": "Google Mail",
+    "description": "You can tap on an upcoming meeting to see the details and join the call.",
+    "isChecked": true
+  },
+  {
+    "imageUrl": "assets/app-calendar/google-analytics.png",
+    "title": "Google Analytics",
+    "description": "You can measure your advertising ROI as well as track your video, applications, social media.",
+    "isChecked": false
+  },
+  {
+    "imageUrl": "assets/app-calendar/google-meet.png",
+    "title": "Google Meet",
+    "description": "It is one of two apps that constitute the replacement for Google Hangouts and Google Chat.",
+    "isChecked": true
+  },
+  {
+    "imageUrl": "assets/app-calendar/intercom.png",
+    "title": "Intercom",
+    "description": "It is the complete customer messaging platform to drive across the entire lifecycle.",
+    "isChecked": false
+  },
+  {
+    "imageUrl": "assets/app-calendar/microsoft-outlook.png",
+    "title": "Microsoft Outlook",
+    "description": "Schedule an online meeting using Outlook Open Outlook and go to your calendar.",
+    "isChecked": true
+  },
+  {
+    "imageUrl": "assets/app-calendar/google-chrome.png",
+    "title": "Google Chrome",
+    "description": "Using your browser, share your video, desktop, and presentations with teammates and customers.",
+    "isChecked": false
+  },
+  {
+    "imageUrl": "assets/app-calendar/hubspot.png",
+    "title": "HubSpot",
+    "description": "Give prospects the power to book meetings with you, and save hours of time on unnecessary emailing.",
+    "isChecked": true
+  },
+  {
+    "imageUrl": "assets/app-calendar/stripe.png",
+    "title": "Stripe",
+    "description": "Sessions is a free conference for payments leaders, developers, founders, and curious observers.",
+    "isChecked": false
+  },
+  {
+    "imageUrl": "assets/app-calendar/slack.png",
+    "title": "Slack",
+    "description": "It is the collaboration hub that brings the right people, information, and tools together to get work done.",
+    "isChecked": true
+  },
+  {
+    "imageUrl": "assets/app-calendar/sales-force.png",
+    "title": "Salesforce",
+    "description": "It provides an interface that gives salespeople useful data stored in Salesforce to lead impactful calls.",
+    "isChecked": false
+  },
+  {
+    "imageUrl": "assets/app-calendar/web-hooks.png",
+    "title": "Web Hooks",
+    "description": "Webhooks notify third-party applications about events that occur in a Zoom account.",
+    "isChecked": true
+  },
+  {
+    "imageUrl": "assets/app-calendar/facebook.png",
+    "title": "Facebook",
+    "description": "Messenger Rooms allows creating a video meeting and inviting friends to join, even if they are not Facebook users.",
+    "isChecked": false
+  },
+  {
+    "imageUrl": "assets/app-calendar/microsoft-team-conference.png",
+    "title": "Microsoft Team Conference",
+    "description": "It automatically includes Microsoft Teams conferencing with audio, video, and screen sharing.",
+    "isChecked": true
+  },
+  {
+    "imageUrl": "assets/app-calendar/zapier.png",
+    "title": "Zapier",
+    "description": "Zapier lets you connect Google Meet with thousands of popular apps to automate your work.",
+    "isChecked": false
+  },
+  {
+    "imageUrl": "assets/app-calendar/zoom.png",
+    "title": "Zoom",
+    "description": "Zoom Cloud Meetings is a proprietary video teleconferencing software developed by Zoom Video Communications.",
+    "isChecked": true
+  }
+]
