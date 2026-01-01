@@ -44,6 +44,8 @@ class MyApp extends StatelessWidget {
           },
           localizationsDelegates: FlutterQuillLocalizations.localizationsDelegates,
           unknownRoute: GetPage<Object>(name: Routes.NOT_FOUND, page: () => const NotFoundView(), binding: NotFoundBinding()),
+          defaultTransition: Transition.noTransition,
+          transitionDuration: Duration.zero,
         );
       },
     );
