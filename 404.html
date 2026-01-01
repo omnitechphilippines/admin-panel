@@ -7,7 +7,7 @@
     // Preserve the original path+query+hash
     const originalPath = location.pathname + location.search + location.hash;
     // Build the URL that points to index.html and keeps the original path
-    const target = '/index.html' + (originalPath !== '/' ? originalPath : '');
+    const target = originalPath !== '/' ? originalPath : '';
     // Use replace() so the browser history does NOT contain the 404 page
     location.replace(target);
   </script>
