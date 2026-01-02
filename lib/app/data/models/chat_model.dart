@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import '../../../helper/services/json_decoder.dart';
 import 'identifier_model.dart';
 
-class ChatModel extends IdentifierModel {
+class ChatModel extends IdentifierModel<String> {
   final String firstName, image, email;
   final List<ChatMessageModel> messages;
   final DateTime timestamp;
@@ -12,15 +12,15 @@ class ChatModel extends IdentifierModel {
   ChatModel(super.id, this.firstName, this.image, this.messages, this.email, this.timestamp);
 
   static ChatModel fromJSON(Map<String, dynamic> json) {
-    JSONDecoder decoder = JSONDecoder(json);
+    final JSONDecoder decoder = JSONDecoder(json);
 
-    String firstName = decoder.getString('first_name');
-    String email = decoder.getString('email');
-    String image = decoder.getString('image');
-    DateTime timestamp = decoder.getDateTime('timestamp');
+    final String firstName = decoder.getString('first_name');
+    final String email = decoder.getString('email');
+    final String image = decoder.getString('image');
+    final DateTime timestamp = decoder.getDateTime('timestamp');
 
-    List<dynamic>? messagesList = decoder.getObjectListOrNull('messages');
-    List<ChatMessageModel> messages = [];
+    final List<dynamic>? messagesList = decoder.getObjectListOrNull('messages');
+    List<ChatMessageModel> messages = <ChatMessageModel>[];
     if (messagesList != null) {
       messages = ChatMessageModel.listFromJSON(messagesList);
     }
@@ -29,14 +29,14 @@ class ChatModel extends IdentifierModel {
   }
 
   static List<ChatModel> listFromJSON(List<dynamic> list) {
-    return list.map((e) => ChatModel.fromJSON(e)).toList();
+    return list.map((dynamic e) => ChatModel.fromJSON(e)).toList();
   }
 
   static List<ChatModel>? _dummyList;
 
   static Future<List<ChatModel>> get dummyList async {
     if (_dummyList == null) {
-      dynamic data = json.decode(await getData());
+      final dynamic data = json.decode(await getData());
       _dummyList = listFromJSON(data);
     }
 
@@ -48,7 +48,7 @@ class ChatModel extends IdentifierModel {
   }
 }
 
-class ChatMessageModel extends IdentifierModel {
+class ChatMessageModel extends IdentifierModel<String> {
   final String message;
   final DateTime sendAt;
   final bool fromMe;
@@ -56,16 +56,16 @@ class ChatMessageModel extends IdentifierModel {
   ChatMessageModel(super.id, this.message, this.sendAt, this.fromMe);
 
   static ChatMessageModel fromJSON(Map<String, dynamic> json) {
-    JSONDecoder decoder = JSONDecoder(json);
+    final JSONDecoder decoder = JSONDecoder(json);
 
-    String message = decoder.getString('message');
-    DateTime sendAt = decoder.getDateTime('send_at');
-    bool fromMe = decoder.getBool('from_me');
+    final String message = decoder.getString('message');
+    final DateTime sendAt = decoder.getDateTime('send_at');
+    final bool fromMe = decoder.getBool('from_me');
 
     return ChatMessageModel(decoder.getId, message, sendAt, fromMe);
   }
 
   static List<ChatMessageModel> listFromJSON(List<dynamic> list) {
-    return list.map((e) => ChatMessageModel.fromJSON(e)).toList();
+    return list.map((dynamic e) => ChatMessageModel.fromJSON(e)).toList();
   }
 }

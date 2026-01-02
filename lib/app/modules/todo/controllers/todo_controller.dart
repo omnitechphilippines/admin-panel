@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
 import '../../../../helper/utils/utils.dart';
-import '../../../../models/todo_model.dart';
+import '../../../data/models/todo_model.dart';
 
 class TodoController extends GetxController {
   List<TodoModel> todo = <TodoModel>[];

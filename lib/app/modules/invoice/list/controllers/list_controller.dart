@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import '../../../../../models/invoice_list_model.dart';
+import '../../../../data/models/invoice_list_model.dart';
 
 class ListController extends GetxController {
   final RxList<InvoiceListModel> invoice = <InvoiceListModel>[].obs;

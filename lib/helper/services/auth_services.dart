@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
+import '../../app/data/models/user.dart';
 import '../storage/local_storage.dart';
-import '../../models/user.dart';
 
 import '../../app/routes/app_pages.dart';
 

@@ -16,25 +16,25 @@ class CalendarIntegrationModel extends IdentifierModel<String> {
   }
 
   static CalendarIntegrationModel fromJSON(Map<String, dynamic> json) {
-    JSONDecoder decoder = JSONDecoder(json);
+    final JSONDecoder decoder = JSONDecoder(json);
 
-    String imageUrl = decoder.getString('imageUrl');
-    String title = decoder.getString('title');
-    String description = decoder.getString('description');
-    bool isChecked = decoder.getBool('isChecked');
+    final String imageUrl = decoder.getString('imageUrl');
+    final String title = decoder.getString('title');
+    final String description = decoder.getString('description');
+    final bool isChecked = decoder.getBool('isChecked');
 
     return CalendarIntegrationModel(decoder.getId, imageUrl, title, description, isChecked);
   }
 
   static List<CalendarIntegrationModel> listFromJSON(List<dynamic> list) {
-    return list.map((e) => CalendarIntegrationModel.fromJSON(e)).toList();
+    return list.map((dynamic e) => CalendarIntegrationModel.fromJSON(e)).toList();
   }
 
   static List<CalendarIntegrationModel>? _dummyList;
 
   static Future<List<CalendarIntegrationModel>> get dummyList async {
     if (_dummyList == null) {
-      dynamic data = json.decode(await getData());
+      final dynamic data = json.decode(await getData());
       _dummyList = listFromJSON(data);
     }
 

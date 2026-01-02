@@ -11,9 +11,9 @@ import '../../../../helper/widgets/my_spacing.dart';
 import '../../../../helper/widgets/my_text.dart';
 import '../../../../helper/widgets/my_text_style.dart';
 import '../../../../helper/widgets/responsive.dart';
-import '../../../../models/todo_model.dart';
 import '../../../../themes/ui_mixin.dart';
 import '../../../../views/layout/layout.dart';
+import '../../../data/models/todo_model.dart';
 import '../controllers/todo_controller.dart';
 
 class TodoView extends GetView<TodoController> {

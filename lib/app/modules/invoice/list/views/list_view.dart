@@ -12,9 +12,9 @@ import '../../../../../helper/widgets/my_text.dart';
 import '../../../../../helper/widgets/my_text_style.dart';
 import '../../../../../helper/widgets/responsive.dart';
 import '../../../../../images.dart';
-import '../../../../../models/invoice_list_model.dart';
 import '../../../../../themes/ui_mixin.dart';
 import '../../../../../views/layout/layout.dart';
+import '../../../../data/models/invoice_list_model.dart';
 import '../controllers/list_controller.dart';
 
 class ListView extends GetView<ListController> {
